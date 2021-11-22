@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "OkSxyoRLMBakimH3dQAuN8MQ2hlrS5A8GWpGr4wI6wansZ8ra6puLtUiYZQVRAfCt5g6aVZGQp0YDUuHHzTpcw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Touunix\\Desktop\\JPWP_PROJEKT\\Boologic\\Boologic.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Touunix\\.nuget\\packages\\monogame.content.builder.task\\3.8.0.1641\\monogame.content.builder.task.3.8.0.1641.nupkg.sha512",
+    "C:\\Users\\Touunix\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.0.1641\\monogame.framework.desktopgl.3.8.0.1641.nupkg.sha512"
+  ],
+  "logs": []
+}
