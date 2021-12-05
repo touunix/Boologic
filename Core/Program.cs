@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Boologic
+namespace Boologic.Core
 {
     public static class Program
     {

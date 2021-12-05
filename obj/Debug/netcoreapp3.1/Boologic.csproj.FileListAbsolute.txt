@@ -21,3 +21,4 @@ C:\Users\Touunix\Desktop\JPWP_PROJEKT\Boologic\obj\Debug\netcoreapp3.1\Boologic.
 C:\Users\Touunix\Desktop\JPWP_PROJEKT\Boologic\obj\Debug\netcoreapp3.1\Boologic.dll
 C:\Users\Touunix\Desktop\JPWP_PROJEKT\Boologic\obj\Debug\netcoreapp3.1\Boologic.pdb
 C:\Users\Touunix\Desktop\JPWP_PROJEKT\Boologic\obj\Debug\netcoreapp3.1\Boologic.genruntimeconfig.cache
+C:\Users\Touunix\Desktop\JPWP_PROJEKT\Boologic\bin\Debug\netcoreapp3.1\Content\kitten.xnb

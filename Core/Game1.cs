@@ -1,42 +1,42 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using Boologic.Core;
+using Boologic.State;
 
-namespace Boologic
+namespace Boologic.Core
 {
     public class Game1 : Game
     {
-        private GraphicsDeviceManager _graphics;
+        public static GraphicsDeviceManager graphics;
         private SpriteBatch _spriteBatch;
+        private Check_state state_game;
 
         public Game1()
         {
-            _graphics = new GraphicsDeviceManager(this);
+            graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
             IsMouseVisible = true;
         }
 
         protected override void Initialize()
         {
-            // TODO: Add your initialization logic here
-
+            graphics.PreferredBackBufferWidth = Settings_file.ScreenWidth;
+            graphics.PreferredBackBufferHeight = Settings_file.ScreenHeight;
+            graphics.ApplyChanges();
+            state_game = new Check_state();
             base.Initialize();
         }
 
         protected override void LoadContent()
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
-
-            // TODO: use this.Content to load your game content here
+            state_game.LoadContent(Content);
         }
 
         protected override void Update(GameTime gameTime)
         {
-            if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
-                Exit();
-
-            // TODO: Add your update logic here
-
+            state_game.Update(gameTime);
             base.Update(gameTime);
         }
 
@@ -44,8 +44,8 @@ namespace Boologic
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
-            // TODO: Add your drawing code here
-
+            _spriteBatch.Begin();
+            state_game.Draw(_spriteBatch);
             base.Draw(gameTime);
         }
     }
