@@ -12,3 +12,5 @@ Grupa:T3
 # 1.0 Installation of framework MonoGame
 
 # 2.0 Structure, layers, settings etc.
+
+# 3.0 Add PNG images like buttons
