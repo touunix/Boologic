@@ -9,7 +9,7 @@ namespace Boologic.Core
     public class Game1 : Game
     {
         public static GraphicsDeviceManager graphics;
-        private SpriteBatch _spriteBatch;
+        private SpriteBatch spriteBatch;
         private Check_state state_game;
 
         public Game1()
@@ -30,7 +30,7 @@ namespace Boologic.Core
 
         protected override void LoadContent()
         {
-            _spriteBatch = new SpriteBatch(GraphicsDevice);
+            spriteBatch = new SpriteBatch(GraphicsDevice);
             state_game.LoadContent(Content);
         }
 
@@ -44,9 +44,11 @@ namespace Boologic.Core
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
-            _spriteBatch.Begin();
-            state_game.Draw(_spriteBatch);
+            spriteBatch.Begin();
+            state_game.Draw(spriteBatch);
+            spriteBatch.End();
             base.Draw(gameTime);
+            
         }
     }
 }

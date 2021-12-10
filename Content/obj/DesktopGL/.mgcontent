@@ -4,9 +4,13 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>c:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/kitten.png</File>
+    <File>c:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/button1.png</File>
+    <File>c:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/button2.png</File>
+    <File>c:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/button3.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
   </DestFiles>
 </SourceFileCollection>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>c:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/kitten.png</SourceFile>
-  <SourceTime>2021-10-31T00:24:56.1147771+02:00</SourceTime>
-  <DestFile>c:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/bin/DesktopGL/kitten.xnb</DestFile>
-  <DestTime>2021-12-05T18:56:12.2106025+01:00</DestTime>
+  <SourceFile>C:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/button1.png</SourceFile>
+  <SourceTime>2021-12-10T13:44:44.952064+01:00</SourceTime>
+  <DestFile>C:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/bin/DesktopGL/Content/button1.xnb</DestFile>
+  <DestTime>2021-12-10T17:14:07.7198935+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2020-08-10T16:17:54+02:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

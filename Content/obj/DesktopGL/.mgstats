@@ -1,2 +1,4 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
-"c:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/kitten.png","c:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/bin/DesktopGL/kitten.xnb","TextureProcessor","Texture2DContent",132907,385621,0,3778021
+"c:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/button1.png","c:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/bin/DesktopGL/button1.xnb","TextureProcessor","Texture2DContent",16278,180649,0,1771204
+"c:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/button2.png","c:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/bin/DesktopGL/button2.xnb","TextureProcessor","Texture2DContent",14516,137353,0,011899
+"c:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/button3.png","c:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/bin/DesktopGL/button3.xnb","TextureProcessor","Texture2DContent",13207,143257,0,0160236
