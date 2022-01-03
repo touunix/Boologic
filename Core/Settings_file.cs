@@ -11,7 +11,7 @@ namespace Boologic.Core
 
         public static bool Exit {get; set;} = false;
 
-        public enum Layer {Menu_level, Game_level}
+        public enum Layer {Menu_level, Game_level, Info_level}
         public static Layer CurrentState {get; set;} = Layer.Menu_level;
     }
 }

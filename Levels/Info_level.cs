@@ -9,7 +9,7 @@ using Boologic.Core;
 
 namespace Boologic.Levels
 {
-    public class Menu_level : MG_abstract
+    public class Info_level : MG_abstract
     {
         private Texture2D[] button = new Texture2D[3];
         private Rectangle[] button_box = new Rectangle[3];
@@ -19,7 +19,7 @@ namespace Boologic.Levels
         
         public override void LoadContent(ContentManager Content)
         {
-            const int INCREMENT_VALUE = 125;
+            const int INCREMENT_VALUE = 200;
                 for(int i=0; i<button.Length; i++)
                 {
                     button[i]=Content.Load<Texture2D>($"button{i+1}");
@@ -49,7 +49,7 @@ namespace Boologic.Levels
                 
                  if(mouse_box.Intersects(button_box[i]))
                  {
-                     spriteBatch.Draw(button[i],button_box[i],Color.Red);
+                     spriteBatch.Draw(button[i],button_box[i],Color.Yellow);
                  }
             }
         }

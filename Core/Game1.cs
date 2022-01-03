@@ -37,12 +37,16 @@ namespace Boologic.Core
         protected override void Update(GameTime gameTime)
         {
             state_game.Update(gameTime);
+            
+            if(Settings_file.Exit)
+                Exit();
+
             base.Update(gameTime);
         }
 
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.CornflowerBlue);
+            GraphicsDevice.Clear(Color.Black);
 
             spriteBatch.Begin();
             state_game.Draw(spriteBatch);
