@@ -16,3 +16,6 @@ Grupa:T3
 # 3.0 Add PNG images like buttons
 
 # 4.0 Mouse effects and add Info_level
+
+# 5.0 Finish the final look of Menu, Info and Game layers
+# 5.1 Fix double execute mouse on buttons

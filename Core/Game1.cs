@@ -11,6 +11,8 @@ namespace Boologic.Core
         public static GraphicsDeviceManager graphics;
         private SpriteBatch spriteBatch;
         private Check_state state_game;
+        
+
 
         public Game1()
         {
@@ -46,11 +48,15 @@ namespace Boologic.Core
 
         protected override void Draw(GameTime gameTime)
         {
+            //GraphicsDevice.Clear(Color.Red);
             GraphicsDevice.Clear(Color.Black);
 
             spriteBatch.Begin();
+
             state_game.Draw(spriteBatch);
+         
             spriteBatch.End();
+
             base.Draw(gameTime);
             
         }
