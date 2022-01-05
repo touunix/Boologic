@@ -48,3 +48,9 @@ C:\Users\Touunix\Desktop\JPWP_PROJEKT\Boologic\bin\Debug\netcoreapp3.1\Content\a
 C:\Users\Touunix\Desktop\JPWP_PROJEKT\Boologic\bin\Debug\netcoreapp3.1\Content\one.xnb
 C:\Users\Touunix\Desktop\JPWP_PROJEKT\Boologic\bin\Debug\netcoreapp3.1\Content\zero.xnb
 C:\Users\Touunix\Desktop\JPWP_PROJEKT\Boologic\bin\Debug\netcoreapp3.1\Content\input_gate.xnb
+C:\Users\Touunix\Desktop\JPWP_PROJEKT\Boologic\bin\Debug\netcoreapp3.1\Content\output_gate.xnb
+C:\Users\Touunix\Desktop\JPWP_PROJEKT\Boologic\bin\Debug\netcoreapp3.1\Content\Correct_input.xnb
+C:\Users\Touunix\Desktop\JPWP_PROJEKT\Boologic\bin\Debug\netcoreapp3.1\Content\font.xnb
+C:\Users\Touunix\Desktop\JPWP_PROJEKT\Boologic\bin\Debug\netcoreapp3.1\Content\order.xnb
+C:\Users\Touunix\Desktop\JPWP_PROJEKT\Boologic\bin\Debug\netcoreapp3.1\Content\button6.xnb
+C:\Users\Touunix\Desktop\JPWP_PROJEKT\Boologic\bin\Debug\netcoreapp3.1\Content\order_bronze.xnb

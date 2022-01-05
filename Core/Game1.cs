@@ -1,7 +1,5 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using Microsoft.Xna.Framework.Input;
-using Boologic.Core;
 using Boologic.State;
 
 namespace Boologic.Core
@@ -12,8 +10,6 @@ namespace Boologic.Core
         private SpriteBatch spriteBatch;
         private Check_state state_game;
         
-
-
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -39,26 +35,19 @@ namespace Boologic.Core
         protected override void Update(GameTime gameTime)
         {
             state_game.Update(gameTime);
-            
             if(Settings_file.Exit)
                 Exit();
-
             base.Update(gameTime);
         }
 
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.Red);
-            //GraphicsDevice.Clear(Color.Black);
-
+            //GraphicsDevice.Clear(Color.Red);
+            GraphicsDevice.Clear(Color.Black);
             spriteBatch.Begin();
-
             state_game.Draw(spriteBatch);
-         
             spriteBatch.End();
-
             base.Draw(gameTime);
-            
         }
     }
 }

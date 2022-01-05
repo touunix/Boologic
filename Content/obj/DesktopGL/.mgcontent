@@ -14,6 +14,9 @@
     <File>c:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/button4.png</File>
     <File>c:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/button4_2.png</File>
     <File>c:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/button5.png</File>
+    <File>c:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/button6.png</File>
+    <File>c:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/correct_input.png</File>
+    <File>c:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/font.spritefont</File>
     <File>c:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/input_gate.png</File>
     <File>c:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/level_button_0.png</File>
     <File>c:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/level_button_1.png</File>
@@ -23,6 +26,9 @@
     <File>c:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/line.png</File>
     <File>c:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/logo.png</File>
     <File>c:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/one.png</File>
+    <File>c:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/order.png</File>
+    <File>c:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/order_bronze.png</File>
+    <File>c:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/output_gate.png</File>
     <File>c:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/shape0.png</File>
     <File>c:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/shape1.png</File>
     <File>c:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/shape2.png</File>
@@ -33,6 +39,12 @@
     <File>c:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/zero.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

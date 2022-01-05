@@ -44,15 +44,15 @@ namespace Boologic.Levels
 
         public override void Draw(SpriteBatch spriteBatch)
         {
-                spriteBatch.Draw(button[0],button_box[0],Color.White);
-                spriteBatch.Draw(shape[0],shape_box[0],Color.White);
-                spriteBatch.Draw(shape[1],shape_box[1],Color.White);
-                spriteBatch.Draw(shape[2],shape_box[2],Color.White);
+            spriteBatch.Draw(button[0],button_box[0],Color.White);
+            spriteBatch.Draw(shape[0],shape_box[0],Color.White);
+            spriteBatch.Draw(shape[1],shape_box[1],Color.White);
+            spriteBatch.Draw(shape[2],shape_box[2],Color.White);
                 
-                 if(mouse_box.Intersects(button_box[0]))
-                 {
-                    spriteBatch.Draw(button[0],button_box[0],Color.DarkGreen);
-                 }
+            if(mouse_box.Intersects(button_box[0]))
+            {
+                spriteBatch.Draw(button[0],button_box[0],Color.DarkGreen);
+            }
         }
     }
 }
