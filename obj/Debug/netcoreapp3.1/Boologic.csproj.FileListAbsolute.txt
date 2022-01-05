@@ -37,3 +37,14 @@ C:\Users\Touunix\Desktop\JPWP_PROJEKT\Boologic\bin\Debug\netcoreapp3.1\Content\t
 C:\Users\Touunix\Desktop\JPWP_PROJEKT\Boologic\bin\Debug\netcoreapp3.1\Content\text_2.xnb
 C:\Users\Touunix\Desktop\JPWP_PROJEKT\Boologic\bin\Debug\netcoreapp3.1\Content\button4.xnb
 C:\Users\Touunix\Desktop\JPWP_PROJEKT\Boologic\bin\Debug\netcoreapp3.1\Content\button4_2.xnb
+C:\Users\Touunix\Desktop\JPWP_PROJEKT\Boologic\bin\Debug\netcoreapp3.1\Content\button5.xnb
+C:\Users\Touunix\Desktop\JPWP_PROJEKT\Boologic\bin\Debug\netcoreapp3.1\Content\shape0.xnb
+C:\Users\Touunix\Desktop\JPWP_PROJEKT\Boologic\bin\Debug\netcoreapp3.1\Content\shape1.xnb
+C:\Users\Touunix\Desktop\JPWP_PROJEKT\Boologic\bin\Debug\netcoreapp3.1\Content\shape2.xnb
+C:\Users\Touunix\Desktop\JPWP_PROJEKT\Boologic\bin\Debug\netcoreapp3.1\Content\shape3.xnb
+C:\Users\Touunix\Desktop\JPWP_PROJEKT\Boologic\bin\Debug\netcoreapp3.1\Content\shape4.xnb
+C:\Users\Touunix\Desktop\JPWP_PROJEKT\Boologic\bin\Debug\netcoreapp3.1\Content\available_logic_gates.xnb
+C:\Users\Touunix\Desktop\JPWP_PROJEKT\Boologic\bin\Debug\netcoreapp3.1\Content\and_gate.xnb
+C:\Users\Touunix\Desktop\JPWP_PROJEKT\Boologic\bin\Debug\netcoreapp3.1\Content\one.xnb
+C:\Users\Touunix\Desktop\JPWP_PROJEKT\Boologic\bin\Debug\netcoreapp3.1\Content\zero.xnb
+C:\Users\Touunix\Desktop\JPWP_PROJEKT\Boologic\bin\Debug\netcoreapp3.1\Content\input_gate.xnb

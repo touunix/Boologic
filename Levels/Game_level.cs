@@ -36,7 +36,7 @@ namespace Boologic.Levels
             button_box[3] = new Rectangle(56+button[0].Width+224, shape[0].Height+shape[1].Height+40, button[3].Width, button[3].Height);
             button[4] = Content.Load<Texture2D>("level_button_4"); //LEVEL 4
             button_box[4] = new Rectangle(56+button[0].Width+224, shape[0].Height+shape[1].Height+40+button[0].Height+40, button[4].Width, button[4].Height);
-            button[5] = Content.Load<Texture2D>("button4_2");      //QUIT
+            button[5] = Content.Load<Texture2D>("button4_2");      //BACK
             button_box[5] = new Rectangle(56+button[0].Width+224+50, shape[0].Height+shape[1].Height+40+button[0].Height+40+button[1].Height+40, button[5].Width, button[5].Height);
         }
     
@@ -56,7 +56,7 @@ namespace Boologic.Levels
             else if(mouse_state.LeftButton == ButtonState.Pressed && mouse_box.Intersects(button_box[4]) && old_mouse_state.LeftButton == ButtonState.Released)
                 Settings_file.CurrentState = Settings_file.Layer.Level_4;     //LEVEL 4
             else if (mouse_state.LeftButton == ButtonState.Pressed && mouse_box.Intersects(button_box[5]) && old_mouse_state.LeftButton == ButtonState.Released) 
-                Settings_file.CurrentState = Settings_file.Layer.Menu_level; //QUIT
+                Settings_file.CurrentState = Settings_file.Layer.Menu_level;  //BACK 
             old_mouse_state = mouse_state;
         }
 

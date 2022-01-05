@@ -19,3 +19,6 @@ Grupa:T3
 
 # 5.0 Finish the final look of Menu, Info and Game layers
 # 5.1 Fix double execute mouse on buttons
+
+# 6.0 Add drag and drop control
+# 6.1 Develop look of Level layers

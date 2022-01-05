@@ -62,7 +62,7 @@ namespace Boologic.Levels
 
         public override void Draw(SpriteBatch spriteBatch)
         {
-            for(int i = 0; i<button.Length; i++)
+            for(int i = 0; i<MAX_button; i++)
             {
                 spriteBatch.Draw(button[i],button_box[i],Color.White);
                 
