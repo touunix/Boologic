@@ -22,3 +22,5 @@ Grupa:T3
 
 # 6.0 Add drag and drop control
 # 6.1 Develop look of Level layers
+
+#7.0 Finish look of Level layers, adding the condition of winning
