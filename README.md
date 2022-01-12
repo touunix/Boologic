@@ -24,3 +24,5 @@ Grupa:T3
 # 6.1 Develop look of Level layers
 
 #7.0 Finish look of Level layers, adding the condition of winning
+
+#8.0 Develop more levels, changes in Game_level
