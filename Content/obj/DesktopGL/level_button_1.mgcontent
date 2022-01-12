@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SourceFile>c:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/level_button_1.png</SourceFile>
-  <SourceTime>2022-01-04T22:53:07.65437+01:00</SourceTime>
+  <SourceTime>2022-01-06T12:45:13.9917336+01:00</SourceTime>
   <DestFile>c:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/bin/DesktopGL/level_button_1.xnb</DestFile>
-  <DestTime>2022-01-06T00:01:04.7829873+01:00</DestTime>
+  <DestTime>2022-01-12T21:56:24.5912443+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2020-08-10T16:17:54+02:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

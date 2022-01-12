@@ -65,7 +65,6 @@ namespace Boologic.Levels
             for(int i = 0; i<MAX_button; i++)
             {
                 spriteBatch.Draw(button[i],button_box[i],Color.White);
-                
                  if(mouse_box.Intersects(button_box[i]))
                      spriteBatch.Draw(button[i],button_box[i],Color.DarkGreen);
             }
