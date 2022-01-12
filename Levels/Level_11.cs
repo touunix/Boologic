@@ -3,8 +3,6 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Boologic.Core;
-using System;
-using Boologic.State;
 
 namespace Boologic.Levels
 {
@@ -35,19 +33,21 @@ namespace Boologic.Levels
         private Rectangle mouse_box;
 
         SpriteFont gameFont;
+        SpriteFont gameFont_2;
 
-        bool result1,result2,result3, result4 = false;
+        bool result1, result2, result3, result4 = false;
         
         public override void LoadContent(ContentManager Content)
         {   
             gameFont = Content.Load<SpriteFont>("font");
+            gameFont_2 = Content.Load<SpriteFont>("font_small");
 
-            button[0]=Content.Load<Texture2D>("button5");   //RESTART
+            button[0]=Content.Load<Texture2D>("button5");   //NEXT
             button_box[0] = new Rectangle(0, 675, button[0].Width, button[0].Height);
             button[1]=Content.Load<Texture2D>("button4_2"); //BACK
             button_box[1] = new Rectangle(795, 675, button[1].Width, button[1].Height);
             button[2]=Content.Load<Texture2D>("button6");   //CHECK
-            button_box[2] = new Rectangle(button[0].Width+8+61, 675, button[2].Width, button[2].Height);
+            button_box[2] = new Rectangle(button[0].Width+8+61+75, 675, button[2].Width, button[2].Height);
 
             shape[0] = Content.Load<Texture2D>("line");
             shape_box[0] = new Rectangle (0, 667, 1024, shape[0].Height/3);
@@ -55,7 +55,7 @@ namespace Boologic.Levels
             shape_box[1] = new Rectangle (button[0].Width, 675, shape[0].Height/3, 93);
             shape[2] = Content.Load<Texture2D>("line");
             shape_box[2] = new Rectangle (0, 93, 1024, shape[0].Height/3);
-            shape[3] = Content.Load<Texture2D>("shape0"); //NUMER POZIOMU
+            shape[3] = Content.Load<Texture2D>("shape11"); //NUMER POZIOMU
             shape_box[3] = new Rectangle (931, 0, 93, 93);
             shape[4] = Content.Load<Texture2D>("line");
             shape_box[4] = new Rectangle (923, 0, shape[0].Height/3, 93);
@@ -66,7 +66,7 @@ namespace Boologic.Levels
 
             overlayer[0] = Content.Load<Texture2D>("line");
             overlay_box[0] = new Rectangle (0, 0, 1024, 768);
-            overlayer[1] = Content.Load<Texture2D>("order_bronze");
+            overlayer[1] = Content.Load<Texture2D>("order_ruby");
             overlay_box[1] = new Rectangle (255, 64, overlayer[1].Width, overlayer[1].Height);
 
             int height_zeroes_ones = 200;
@@ -116,13 +116,13 @@ namespace Boologic.Levels
             element[19] = Content.Load<Texture2D>("input_gate");
             element_box[19] = new Rectangle (52+element[0].Width+element[1].Width+52+element[2].Width+element[3].Width+52+element[4].Width+element[5].Width+element[6].Width, height_inputs, element[19].Width, element[19].Height);
 
-            drag_element[0] = Content.Load<Texture2D>("and_gate");
+            drag_element[0] = Content.Load<Texture2D>("nor_gate");
             drag_element_box[0] = new Rectangle ((shape[5].Width*2)/3+29, 9, drag_element[0].Width, drag_element[0].Height);
-            drag_element[1] = Content.Load<Texture2D>("and_gate");
+            drag_element[1] = Content.Load<Texture2D>("nor_gate");
             drag_element_box[1] = new Rectangle ((shape[5].Width*2)/3+29+drag_element[0].Width+29, 9, drag_element[1].Width, drag_element[1].Height);
-            drag_element[2] = Content.Load<Texture2D>("and_gate");
+            drag_element[2] = Content.Load<Texture2D>("nor_gate");
             drag_element_box[2] = new Rectangle ((shape[5].Width*2)/3+29+drag_element[0].Width+29+drag_element[1].Width+29, 9, drag_element[2].Width, drag_element[2].Height);
-            drag_element[3] = Content.Load<Texture2D>("and_gate");
+            drag_element[3] = Content.Load<Texture2D>("nor_gate");
             drag_element_box[3] = new Rectangle ((shape[5].Width*2)/3+29+drag_element[0].Width+29+drag_element[1].Width+29+drag_element[2].Width+29, 9, drag_element[3].Width, drag_element[3].Height);
         }
     
@@ -131,14 +131,10 @@ namespace Boologic.Levels
             mouse_state = Mouse.GetState();
             mouse_box = new Rectangle(mouse_state.X,mouse_state.Y,1,1);
 
-            if(mouse_state.LeftButton == ButtonState.Pressed && mouse_box.Intersects(button_box[0]) && old_mouse_state.LeftButton == ButtonState.Released)
-                //Check_state.level_0.LoadContent(Content);
-                Settings_file.CurrentState = Settings_file.Layer.Level_0;  //RESTART
+            if(result1==true && result2==true && result3==true && result4==true && mouse_state.LeftButton == ButtonState.Pressed && mouse_box.Intersects(button_box[0]) && old_mouse_state.LeftButton == ButtonState.Released)
+                Settings_file.CurrentState = Settings_file.Layer.Level_12;  //NEXT
             else if(mouse_state.LeftButton == ButtonState.Pressed && mouse_box.Intersects(button_box[1]) && old_mouse_state.LeftButton == ButtonState.Released)
                 Settings_file.CurrentState = Settings_file.Layer.Game_level; //BACK
-                
-            //else if(result1==true && result2==true && result3==true && result4==true)
-               // Settings_file.CurrentState = Settings_file.Layer.Level_1; 
             old_mouse_state = mouse_state;
 
             for (int i=0; i < MAX_drag_element; i++) //RUSZANIE ELEMENTAMI
@@ -155,7 +151,6 @@ namespace Boologic.Levels
             {
                 drag_element_box[i].X = mouse_state.X-(drag_element_box[i].Width/2);
                 drag_element_box[i].Y = mouse_state.Y-(drag_element_box[i].Height/2);
-
             }
         }
 
@@ -168,7 +163,7 @@ namespace Boologic.Levels
 
             if(int_drag_x > 100 && int_drag_x < 195 && int_drag_y > 295 && int_drag_y < 390)
             {
-                element[12] = element[2];
+                element[12] = element[3];
                 element[16] = element[8];
                 result1 = true;
             }
@@ -182,7 +177,7 @@ namespace Boologic.Levels
 
             if(int_drag_x > 584 && int_drag_x < 679 && int_drag_y > 295 && int_drag_y < 390)
             {
-                element[14] = element[3];
+                element[14] = element[2];
                 element[18] = element[8];
                 result3 = true;
             }
@@ -218,8 +213,6 @@ namespace Boologic.Levels
 
         public override void Draw(SpriteBatch spriteBatch)
         {    
-            //try
-            //{
                 for(int i = 0; i<MAX_button; i++)
                 {
                     spriteBatch.Draw(button[i],button_box[i],Color.White);
@@ -238,19 +231,17 @@ namespace Boologic.Levels
                     if(mouse_box.Intersects(drag_element_box[i]))
                         spriteBatch.Draw(drag_element[i],drag_element_box[i],Color.Orange);
                 }
-                
-            //}
-            //catch (Exception){}
 
-            spriteBatch.DrawString(gameFont, "AND Gate Level",new Vector2(170,120),Color.LightGray);
+            spriteBatch.DrawString(gameFont, "NOR Gate Level 2",new Vector2(110,120),Color.LightGray);
+            spriteBatch.DrawString(gameFont_2,"Finish level to check your order",new Vector2(385,640),Color.LightGray);
 
             if(result1==true && result2==true && result3==true && result4==true && mouse_state.LeftButton == ButtonState.Pressed && mouse_box.Intersects(button_box[2]))
-                {
-                    spriteBatch.Draw(overlayer[0],overlay_box[0],Color.LightGray);
-                    spriteBatch.Draw(overlayer[1],overlay_box[1],Color.White);
-                    spriteBatch.DrawString(gameFont, "Congratulations !!!",new Vector2(25,0),Color.Black);
-                    spriteBatch.DrawString(gameFont, "Bronze Order",new Vector2(200,700),Color.SaddleBrown);
-                }    
+            {
+                spriteBatch.Draw(overlayer[0],overlay_box[0],Color.LightGray);
+                spriteBatch.Draw(overlayer[1],overlay_box[1],Color.White);
+                spriteBatch.DrawString(gameFont, "Congratulations !!!",new Vector2(25,0),Color.Black);
+                spriteBatch.DrawString(gameFont, "Ruby Order",new Vector2(250,700),Color.DarkRed);
+            }
         }
     }
 }

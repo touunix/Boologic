@@ -236,12 +236,12 @@ namespace Boologic.Levels
             spriteBatch.DrawString(gameFont_2,"Finish level to check your order",new Vector2(385,640),Color.LightGray);
 
             if(result1==true && result2==true && result3==true && result4==true && mouse_state.LeftButton == ButtonState.Pressed && mouse_box.Intersects(button_box[2]))
-                {
-                    spriteBatch.Draw(overlayer[0],overlay_box[0],Color.LightGray);
-                    spriteBatch.Draw(overlayer[1],overlay_box[1],Color.White);
-                    spriteBatch.DrawString(gameFont, "Congratulations !!!",new Vector2(25,0),Color.Black);
-                    spriteBatch.DrawString(gameFont, "Silver Order",new Vector2(200,700),Color.Silver);
-                }    
+            {
+                spriteBatch.Draw(overlayer[0],overlay_box[0],Color.LightGray);
+                spriteBatch.Draw(overlayer[1],overlay_box[1],Color.White);
+                spriteBatch.DrawString(gameFont, "Congratulations !!!",new Vector2(25,0),Color.Black);
+                spriteBatch.DrawString(gameFont, "Silver Order",new Vector2(200,700),Color.Silver);
+            }    
         }
     }
 }

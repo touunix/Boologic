@@ -76,3 +76,17 @@ C:\Users\Touunix\Desktop\JPWP_PROJEKT\Boologic\bin\Debug\netcoreapp3.1\Content\s
 C:\Users\Touunix\Desktop\JPWP_PROJEKT\Boologic\bin\Debug\netcoreapp3.1\Content\shape7.xnb
 C:\Users\Touunix\Desktop\JPWP_PROJEKT\Boologic\bin\Debug\netcoreapp3.1\Content\shape8.xnb
 C:\Users\Touunix\Desktop\JPWP_PROJEKT\Boologic\bin\Debug\netcoreapp3.1\Content\shape9.xnb
+C:\Users\Touunix\Desktop\JPWP_PROJEKT\Boologic\bin\Debug\netcoreapp3.1\Content\not_gate.xnb
+C:\Users\Touunix\Desktop\JPWP_PROJEKT\Boologic\bin\Debug\netcoreapp3.1\Content\table_not.xnb
+C:\Users\Touunix\Desktop\JPWP_PROJEKT\Boologic\bin\Debug\netcoreapp3.1\Content\nand_gate.xnb
+C:\Users\Touunix\Desktop\JPWP_PROJEKT\Boologic\bin\Debug\netcoreapp3.1\Content\order_emerald.xnb
+C:\Users\Touunix\Desktop\JPWP_PROJEKT\Boologic\bin\Debug\netcoreapp3.1\Content\table_nand.xnb
+C:\Users\Touunix\Desktop\JPWP_PROJEKT\Boologic\bin\Debug\netcoreapp3.1\Content\order_diamond.xnb
+C:\Users\Touunix\Desktop\JPWP_PROJEKT\Boologic\bin\Debug\netcoreapp3.1\Content\order_ruby.xnb
+C:\Users\Touunix\Desktop\JPWP_PROJEKT\Boologic\bin\Debug\netcoreapp3.1\Content\shape10.xnb
+C:\Users\Touunix\Desktop\JPWP_PROJEKT\Boologic\bin\Debug\netcoreapp3.1\Content\shape11.xnb
+C:\Users\Touunix\Desktop\JPWP_PROJEKT\Boologic\bin\Debug\netcoreapp3.1\Content\shape12.xnb
+C:\Users\Touunix\Desktop\JPWP_PROJEKT\Boologic\bin\Debug\netcoreapp3.1\Content\nor_gate.xnb
+C:\Users\Touunix\Desktop\JPWP_PROJEKT\Boologic\bin\Debug\netcoreapp3.1\Content\table_nor.xnb
+C:\Users\Touunix\Desktop\JPWP_PROJEKT\Boologic\bin\Debug\netcoreapp3.1\Content\wrong_input.xnb
+C:\Users\Touunix\Desktop\JPWP_PROJEKT\Boologic\bin\Debug\netcoreapp3.1\Content\order_space.xnb

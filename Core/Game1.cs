@@ -42,8 +42,7 @@ namespace Boologic.Core
 
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.Red);
-            //GraphicsDevice.Clear(Color.Black);
+            GraphicsDevice.Clear(Color.Black);
             spriteBatch.Begin();
             state_game.Draw(spriteBatch);
             spriteBatch.End();

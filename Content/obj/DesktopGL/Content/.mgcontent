@@ -35,15 +35,25 @@
     <File>C:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/level_button_9.png</File>
     <File>C:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/line.png</File>
     <File>C:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/logo.png</File>
+    <File>C:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/nand_gate.png</File>
+    <File>C:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/nor_gate.png</File>
+    <File>C:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/not_gate.png</File>
     <File>C:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/one.png</File>
     <File>C:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/or_gate.png</File>
     <File>C:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/order.png</File>
     <File>C:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/order_bronze.png</File>
+    <File>C:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/order_diamond.png</File>
+    <File>C:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/order_emerald.png</File>
     <File>C:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/order_gold.png</File>
+    <File>C:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/order_ruby.png</File>
     <File>C:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/order_silver.png</File>
+    <File>C:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/order_space.png</File>
     <File>C:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/output_gate.png</File>
     <File>C:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/shape0.png</File>
     <File>C:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/shape1.png</File>
+    <File>C:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/shape10.png</File>
+    <File>C:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/shape11.png</File>
+    <File>C:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/shape12.png</File>
     <File>C:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/shape2.png</File>
     <File>C:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/shape3.png</File>
     <File>C:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/shape4.png</File>
@@ -53,14 +63,32 @@
     <File>C:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/shape8.png</File>
     <File>C:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/shape9.png</File>
     <File>C:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/table_and.jpg</File>
+    <File>C:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/table_nand.jpg</File>
+    <File>C:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/table_nor.jpg</File>
+    <File>C:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/table_not.jpg</File>
     <File>C:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/table_or.jpg</File>
     <File>C:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/table_xor.jpg</File>
     <File>C:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/text_1.png</File>
     <File>C:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/text_2.png</File>
+    <File>C:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/wrong_input.png</File>
     <File>C:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/xor_gate.png</File>
     <File>C:/Users/Touunix/Desktop/JPWP_PROJEKT/Boologic/Content/zero.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

@@ -93,7 +93,7 @@ namespace Boologic.Levels
             spriteBatch.DrawString(gameFont_2,"of HIGH inputs is odd. The behavior of operation is shown on the right,",new Vector2(10,255),Color.LightGray);
             spriteBatch.DrawString(gameFont_2,"in truth table. An XOR gate implements an exclusive OR from mathematical logic.",new Vector2(10,290),Color.LightGray);
             spriteBatch.DrawString(gameFont_2,"A way to remember XOR is must have one or the other but not both.",new Vector2(10,325),Color.LightGray);
-            spriteBatch.DrawString(gameFont_2,"Symbol of OR gate:",new Vector2(150,420),Color.LightGray);
+            spriteBatch.DrawString(gameFont_2,"Symbol of XOR gate:",new Vector2(150,420),Color.LightGray);
             spriteBatch.DrawString(gameFont_2,"To check your order click button CHECK",new Vector2(350,640),Color.LightGray);
 
             if(mouse_state.LeftButton == ButtonState.Pressed && mouse_box.Intersects(button_box[2]))
@@ -101,7 +101,7 @@ namespace Boologic.Levels
                 spriteBatch.Draw(overlayer[0],overlay_box[0],Color.LightGray);
                 spriteBatch.Draw(overlayer[1],overlay_box[1],Color.White);
                 spriteBatch.DrawString(gameFont, "Congratulations !!!",new Vector2(25,0),Color.Black);
-                spriteBatch.DrawString(gameFont, "XOR Order",new Vector2(340,700),Color.Black);
+                spriteBatch.DrawString(gameFont, "XOR Order",new Vector2(310,700),Color.Black);
             }    
         }
     }

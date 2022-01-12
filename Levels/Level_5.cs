@@ -177,14 +177,14 @@ namespace Boologic.Levels
 
             if(int_drag_x > 584 && int_drag_x < 679 && int_drag_y > 295 && int_drag_y < 390)
             {
-                element[14] = element[3];
+                element[14] = element[2];
                 element[18] = element[8];
                 result3 = true;
             }
 
             if(int_drag_x > 826 && int_drag_x < 921 && int_drag_y > 295 && int_drag_y < 390)
             {
-                element[15] = element[2];
+                element[15] = element[3];
                 element[19] = element[8];
                 result4 = true;
             }
@@ -236,12 +236,12 @@ namespace Boologic.Levels
             spriteBatch.DrawString(gameFont_2,"Finish level to check your order",new Vector2(385,640),Color.LightGray);
 
             if(result1==true && result2==true && result3==true && result4==true && mouse_state.LeftButton == ButtonState.Pressed && mouse_box.Intersects(button_box[2]))
-                {
-                    spriteBatch.Draw(overlayer[0],overlay_box[0],Color.LightGray);
-                    spriteBatch.Draw(overlayer[1],overlay_box[1],Color.White);
-                    spriteBatch.DrawString(gameFont, "Congratulations !!!",new Vector2(25,0),Color.Black);
-                    spriteBatch.DrawString(gameFont, "Gold Order",new Vector2(240,700),Color.Gold);
-                }    
+            {
+                spriteBatch.Draw(overlayer[0],overlay_box[0],Color.LightGray);
+                spriteBatch.Draw(overlayer[1],overlay_box[1],Color.White);
+                spriteBatch.DrawString(gameFont, "Congratulations !!!",new Vector2(25,0),Color.Black);
+                spriteBatch.DrawString(gameFont, "Gold Order",new Vector2(240,700),Color.Gold);
+            }    
         }
     }
 }
