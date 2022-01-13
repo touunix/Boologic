@@ -6,6 +6,10 @@ using Boologic.Core;
 
 namespace Boologic.Levels
 {
+    /// <summary>
+    /// Manages an Level 10 Layer
+    /// </summary>    
+
     public class Level_10 : MG_abstract
     {
         const int MAX_button = 3;
@@ -26,6 +30,10 @@ namespace Boologic.Levels
 
         SpriteFont gameFont;
         SpriteFont gameFont_2;
+
+        /// <summary>
+        /// Section which load content
+        /// </summary>
         
         public override void LoadContent(ContentManager Content)
         {   
@@ -63,6 +71,10 @@ namespace Boologic.Levels
             overlayer[1] = Content.Load<Texture2D>("order");
             overlay_box[1] = new Rectangle (255, 64, overlayer[1].Width, overlayer[1].Height);
         }
+
+        /// <summary>
+        /// Section which update content
+        /// </summary>
     
         public override void Update(GameTime gameTime)
         {
@@ -75,6 +87,10 @@ namespace Boologic.Levels
                 Settings_file.CurrentState = Settings_file.Layer.Game_level; //BACK
             old_mouse_state = mouse_state;
         }
+
+        /// <summary>
+        /// Section which show content
+        /// </summary>
 
         public override void Draw(SpriteBatch spriteBatch)
         {    

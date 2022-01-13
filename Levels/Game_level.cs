@@ -6,6 +6,10 @@ using Boologic.Core;
 
 namespace Boologic.Levels
 {
+    /// <summary>
+    /// Manages an Game Layer
+    /// </summary>
+
     public class Game_level : MG_abstract
     {
         const int MAX_button = 14;
@@ -20,6 +24,10 @@ namespace Boologic.Levels
         private Rectangle mouse_box;
         
         SpriteFont gameFont;
+
+        /// <summary>
+        /// Section which load content
+        /// </summary>
 
         public override void LoadContent(ContentManager Content)
         {
@@ -72,6 +80,10 @@ namespace Boologic.Levels
             button_box[13] = new Rectangle(fourth_column, shape[0].Height+shape[1].Height+25+button[0].Height+25+button[1].Height+25+button[2].Height+25, button_width, button_height);
         }
     
+        /// <summary>
+        /// Section which update content
+        /// </summary>
+
         public override void Update(GameTime gameTime)
         {
             MouseState mouse_state = Mouse.GetState();
@@ -107,6 +119,10 @@ namespace Boologic.Levels
                 Settings_file.CurrentState = Settings_file.Layer.Menu_level;  //BACK
             old_mouse_state = mouse_state;
         }
+
+        /// <summary>
+        /// Section which show content
+        /// </summary>
 
         public override void Draw(SpriteBatch spriteBatch)
         {

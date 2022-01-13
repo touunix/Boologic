@@ -5,7 +5,11 @@ using Boologic.Core;
 using Boologic.Levels;
 
 namespace Boologic.State
-{
+{   
+    /// <summary>
+    /// Checking current layer
+    /// </summary>
+
     public class Check_state : MG_abstract
     {
         private Menu_level menu = new Menu_level();

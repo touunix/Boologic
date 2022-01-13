@@ -2,6 +2,10 @@
 
 namespace Boologic.Core
 {
+    /// <summary>
+    /// Starts game
+    /// </summary>
+
     public static class Program
     {
         [STAThread]

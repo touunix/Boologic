@@ -6,6 +6,10 @@ using Boologic.Core;
 
 namespace Boologic.Levels
 {
+    /// <summary>
+    /// Manages an Level 9 Layer
+    /// </summary>
+
     public class Level_9 : MG_abstract
     {
         const int MAX_button = 3;
@@ -36,6 +40,10 @@ namespace Boologic.Levels
         SpriteFont gameFont_2;
 
         bool result1, result2, result3, result4 = false;
+
+        /// <summary>
+        /// Section which load content
+        /// </summary>
         
         public override void LoadContent(ContentManager Content)
         {   
@@ -125,6 +133,10 @@ namespace Boologic.Levels
             drag_element[3] = Content.Load<Texture2D>("nand_gate");
             drag_element_box[3] = new Rectangle ((shape[5].Width*2)/3+29+drag_element[0].Width+29+drag_element[1].Width+29+drag_element[2].Width+29, 9, drag_element[3].Width, drag_element[3].Height);
         }
+
+        /// <summary>
+        /// Section which update content
+        /// </summary>
     
         public override void Update(GameTime gameTime)
         {
@@ -144,6 +156,10 @@ namespace Boologic.Levels
             }                
         }
 
+        /// <summary>
+        /// Section which enable dragging elements
+        /// </summary>
+
         public void drag_elements(int i)
         {
             if(mouse_state.LeftButton == ButtonState.Pressed && drag_element_box[i].Intersects(mouse_box) && margin_left(drag_element_box[i]) && margin_right(drag_element_box[i]) &&
@@ -153,6 +169,10 @@ namespace Boologic.Levels
                 drag_element_box[i].Y = mouse_state.Y-(drag_element_box[i].Height/2);
             }
         }
+
+        /// <summary>
+        /// Section which determines the area
+        /// </summary>
 
         public void specific_area(int i)
         { 
@@ -210,6 +230,10 @@ namespace Boologic.Levels
             if(mouse_box.Y + (drag_element_box.Height/2) <= 663) return true;
             else return false;
         }
+
+        /// <summary>
+        /// Section which show content
+        /// </summary>
 
         public override void Draw(SpriteBatch spriteBatch)
         {    

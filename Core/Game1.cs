@@ -3,7 +3,11 @@ using Microsoft.Xna.Framework.Graphics;
 using Boologic.State;
 
 namespace Boologic.Core
-{
+{   
+    /// <summary>
+    /// Starts MonoGame things
+    /// </summary>
+
     public class Game1 : Game
     {
         public static GraphicsDeviceManager graphics;

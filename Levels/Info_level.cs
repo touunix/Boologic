@@ -6,6 +6,11 @@ using Boologic.Core;
 
 namespace Boologic.Levels
 {
+    /// <summary>
+    /// Manages an Info Layer
+    /// Informs us about project
+    /// </summary>
+
     public class Info_level : MG_abstract
     {
         const int MAX_button = 1;
@@ -19,6 +24,10 @@ namespace Boologic.Levels
         private MouseState old_mouse_state = new MouseState();
         private Rectangle mouse_box;
         
+        /// <summary>
+        /// Section which load content
+        /// </summary>
+
         public override void LoadContent(ContentManager Content)
         {
             button[0]=Content.Load<Texture2D>("button4"); //BACK
@@ -31,7 +40,11 @@ namespace Boologic.Levels
             shape[2] = Content.Load<Texture2D>("line");
             shape_box[2] = new Rectangle (0, 590, 1024,shape[2].Height);
         }
-    
+
+        /// <summary>
+        /// Section which update content
+        /// </summary>
+
         public override void Update(GameTime gameTime)
         {
             MouseState mouse_state = Mouse.GetState();
@@ -41,6 +54,10 @@ namespace Boologic.Levels
                 Settings_file.CurrentState = Settings_file.Layer.Menu_level; //BACK
             old_mouse_state = mouse_state;
         }
+
+        /// <summary>
+        /// Section which show content
+        /// </summary>
 
         public override void Draw(SpriteBatch spriteBatch)
         {

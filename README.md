@@ -28,3 +28,5 @@ Grupa:T3
 #8.0 Develop more levels, changes in Game_level
 
 #9.0 Last features and levels
+
+#10.0 Finish game

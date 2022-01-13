@@ -5,9 +5,13 @@ using Microsoft.Xna.Framework.Input;
 using Boologic.Core;
 
 namespace Boologic.Levels
-{
+{   
+    /// <summary>
+    /// Manages an Level 8 Layer
+    /// </summary>
+
     public class Level_8 : MG_abstract
-    {
+    { 
         const int MAX_button = 3;
         private Texture2D[] button = new Texture2D[MAX_button];
         private Rectangle[] button_box = new Rectangle[MAX_button];
@@ -26,6 +30,10 @@ namespace Boologic.Levels
 
         SpriteFont gameFont;
         SpriteFont gameFont_2;
+
+        /// <summary>
+        /// Section which load content
+        /// </summary>
         
         public override void LoadContent(ContentManager Content)
         {   
@@ -63,6 +71,10 @@ namespace Boologic.Levels
             overlayer[1] = Content.Load<Texture2D>("order");
             overlay_box[1] = new Rectangle (255, 64, overlayer[1].Width, overlayer[1].Height);
         }
+
+        /// <summary>
+        /// Section which update content
+        /// </summary>
     
         public override void Update(GameTime gameTime)
         {
@@ -75,6 +87,10 @@ namespace Boologic.Levels
                 Settings_file.CurrentState = Settings_file.Layer.Game_level; //BACK
             old_mouse_state = mouse_state;
         }
+
+        /// <summary>
+        /// Section which show content
+        /// </summary>
 
         public override void Draw(SpriteBatch spriteBatch)
         {    

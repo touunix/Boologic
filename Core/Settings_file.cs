@@ -4,6 +4,10 @@ using System.Text;
 
 namespace Boologic.Core
 {
+    /// <summary>
+    /// Settings about Layers etc.
+    /// </summary>
+
     public static class Settings_file
     {
         public static int ScreenWidth { get; set;} = 1024;

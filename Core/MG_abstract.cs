@@ -4,6 +4,10 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace Boologic.Core
 {
+    /// <summary>
+    /// Example for other levels
+    /// </summary>
+
     public abstract class MG_abstract
     {
         public abstract void LoadContent(ContentManager Content);
